@@ -3,26 +3,26 @@ let kanadeIconProp;
 
 function preload()
 {
-  kanadeIcon = loadImage("/icons/Anushka.jpg"); 
+  kanadeIcon = loadImage("icons/Anushka.jpg"); 
   
 }
 
 function setup() {
   createCanvas(1350, 600)
 
-  let babyhoodlink = createA("../flashcards-AG/answersChild.html", 'Babyhood',"blank");
+  let babyhoodlink = createA("flashcards-AG/answersChild.html", 'Babyhood',"blank");
   babyhoodlink.position(1020, 100);
 
-  let teenhoodlink = createA("../flashcards-AG/answersTeen.html", 'Teenhood',"blank");
+  let teenhoodlink = createA("flashcards-AG/answersTeen.html", 'Teenhood',"blank");
   teenhoodlink.position(760, 320);
 
-  let adulthoodlink = createA("../flashcards-AG/answersAdult.html", 'Adulthood',"blank");
+  let adulthoodlink = createA("flashcards-AG/answersAdult.html", 'Adulthood',"blank");
   adulthoodlink.position(110, 420); 
   
-  let oldhoodlink = createA("../flashcards-AG/answersOld.html", 'Oldhood',"blank");
+  let oldhoodlink = createA("flashcards-AG/answersOld.html", 'Oldhood',"blank");
   oldhoodlink.position(1000, 490); 
   
-  let homelink = createA("../index.html", 'Back to Home!',"_self");
+  let homelink = createA("index.html", 'Back to Home!',"_self");
   homelink.position(700,650);
 
   
